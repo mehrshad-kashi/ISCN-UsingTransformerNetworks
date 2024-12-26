@@ -12,7 +12,7 @@ The study focuses on using Transformer-based architectures to identify informati
 - Baby Products
 - Books
 
-The results are detailed in Table 3, Figure 4, and Table 5 of the paper.
+The research evaluates these models' ability to generalize across domains, highlighting their strengths and limitations. Through various experimental setups, it addresses key challenges in adopting Transformer-based models for customer needs analysis, such as task complexity and handling diverse datasets effectively.
 
 ## Repository Structure
 - `Notebooks/`
@@ -20,7 +20,7 @@ The results are detailed in Table 3, Figure 4, and Table 5 of the paper.
     - **Table 3 Experiment:** [Notebook link or name]
     - **Figure 4 Experiment:** [Notebook link or name]
     - **Table 5 Experiment:** [Notebook link or name]
-- `README.md`: This file, explaining the repository structure and usage.
+- `README.md`: This file explains the repository structure and usage.
 
 ## Data Access
 To reproduce the results, the following datasets are required:
@@ -33,8 +33,8 @@ Please ensure you comply with the licensing and terms of use for each dataset.
 
 ## Experimental Setup
 All experiments were conducted in a Google Colab environment with the following configurations:
-- **GPU**: NVIDIA Tesla T4
-- **RAM**: 12 GB
+- **GPU**: NVIDIA A100
+- **RAM**: 40 GB
 
 ## Usage Instructions
 1. Clone the repository:
@@ -43,7 +43,6 @@ All experiments were conducted in a Google Colab environment with the following 
 4. Follow the instructions in the notebook to reproduce the results.
 
 **Note**: Ensure you have access to the required datasets before running the experiments.
-
 
 ## Results
 The key findings of this study are summarized in:

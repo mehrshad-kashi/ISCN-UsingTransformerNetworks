@@ -58,6 +58,6 @@ The key findings of this study are summarized below:
 For a detailed discussion of the results, please refer to the [paper](#).
 
 ## License
-This code is licensed under the [MIT License](LICENSE). 
+This repository's codes are licensed under the [MIT License](LICENSE). 
 
-**Disclaimer**: The datasets used in this study are not included in this repository. Please ensure you comply with their respective licenses and terms of use.
+**Note**: The datasets used in this study are not included in this repository. If you plan to use these datasets, please ensure compliance with their respective licenses and terms of use.  

@@ -38,6 +38,7 @@ Please ensure that you comply with the licensing and terms of use for each datas
 All experiments were conducted in a Google Colab environment with the following configurations:
 - **GPU**: NVIDIA A100
 - **RAM**: 40 GB
+**Important**: Using a different GPU or settings may affect the results.
 
 ## Usage Instructions
 1. Clone the repository:

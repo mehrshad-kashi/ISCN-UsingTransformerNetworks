@@ -5,31 +5,32 @@ This repository contains the code and instructions to reproduce the results pres
 *"Comprehensive Analysis of Transformer Networks in Identifying Informative Sentences Containing Customer Needs"* 
 (currently under review at *Expert Systems With Applications* journal).
 
-The study focuses on using Transformer-based architectures to identify informative sentences that capture customer needs from Amazon product reviews. The experiments are conducted across five distinct Amazon product domain reviews:
+The study uses Transformer-based architectures to identify sentences containing customer needs (informative sentences) from Amazon product reviews. The experiments are conducted across five sentence-level Amazon product domain reviews:
 - Oral-Care Products
 - Electronics
 - Sport & Outdoors
-- Baby Products
-- Books
+- Baby
+- Pet Supplies
 
 The research evaluates these models' ability to generalize across domains, highlighting their strengths and limitations. Through various experimental setups, it addresses key challenges in adopting Transformer-based models for customer needs analysis, such as task complexity and handling diverse datasets effectively.
 
 ## Repository Structure
 - `Notebooks/`
-  - Contains three Colab notebooks, each corresponding to a specific experiment in the study:
-    - **Table 3 Experiment:** [Notebook link or name]
-    - **Figure 4 Experiment:** [Notebook link or name]
-    - **Table 5 Experiment:** [Notebook link or name]
+  - This directory contains four Colab notebooks, each corresponding to a specific experiment presented in the study. The results of these experiments are associated with the following:
+    - **Table 3:** [Notebook link or name]
+    - **Figure 4:** [Notebook link or name]
+    - **Figure 7:** [Notebook link or name]
+    - **Table 5:** [Notebook link or name]
 - `README.md`: This file explains the repository structure and usage.
 
 ## Data Access
 To reproduce the results, the following datasets are required:
 
 1. **Oral-Care Products Dataset**: Instructions for accessing this dataset are provided in the paper.
-2. **Other Domains (Electronics, Sport & Outdoors, Baby, Books)**: These datasets are available on their respective GitHub pages:
+2. **Other Domains**: These datasets are available on their respective GitHub pages:
 https://github.com/SvenStahlmann/HICSS-2023-Benchmarking-Machine-Learning-Models-for-Need-Identification/
 
-Please ensure you comply with the licensing and terms of use for each dataset.
+Please ensure that you comply with the licensing and terms of use for each dataset and cite the relevant publications if you use these data.
 
 ## Experimental Setup
 All experiments were conducted in a Google Colab environment with the following configurations:
@@ -45,12 +46,14 @@ All experiments were conducted in a Google Colab environment with the following 
 **Note**: Ensure you have access to the required datasets before running the experiments.
 
 ## Results
-The key findings of this study are summarized in:
-- **Table 3**: Performance comparison of models across domains.
-- **Figure 4**: Visualization of model performance trends.
-- **Table 5**: Analysis of the impact of various hyperparameters.
+The key findings of this study are summarized below:
+- **Table 3**: Performance comparison of models on the Oral-Care dataset.
+- **Table 4**: Assessment of model generalizability based on the semantic similarity of samples during training in the Oral-Care dataset.
+- **Figure 4**: Robustness analysis of models against unseen, informative samples in the Oral-Care dataset.
+- **Figure 7**: Sample efficiency of models across all datasets.
+- **Table 5**: In-domain and cross-domain classification results across all datasets.
 
-For detailed results and discussions, please refer to the paper.
+For a detailed discussion of the results, please refer to the [paper](#).
 
 ## License
 This code is licensed under the [MIT License](LICENSE). 

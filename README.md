@@ -41,7 +41,7 @@ All experiments were conducted in a Google Colab environment with the following 
 
 ## Usage Instructions
 1. Clone the repository:
-   git clone https://github.com/github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks.git
+   git clone https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks.git
 3. Navigate to the `Notebooks` folder and open the desired Colab notebook.
 4. Follow the instructions in the notebook to reproduce the results.
 

@@ -19,10 +19,10 @@ The research evaluates the generalization capabilities of these models across do
 ## Repository Structure
 -  [`Notebooks/`](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks)  
   - This directory contains four Colab notebooks, each corresponding to a specific experiment presented in the study. The results of these experiments are associated with the following:
-    - [**Table 3:**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Table3.ipynb)   
-    - [**Figure 4:**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Figure4.ipynb)  
-    - [**Figure 7:**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Figure7.ipynb)  
-    - [**Table 5:**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Table5.ipynb)   
+    - [**Table 3**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Table3.ipynb)   
+    - [**Figure 4**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Figure4.ipynb)  
+    - [**Figure 7**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Figure7.ipynb)  
+    - [**Table 5**](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Table5.ipynb)   
 - `README.md`: This file explains the repository structure and usage.
 
 ## Data Access

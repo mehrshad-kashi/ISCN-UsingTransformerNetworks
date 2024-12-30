@@ -18,11 +18,10 @@ The research evaluates the generalization capabilities of these models across do
 
 ## Repository Structure
 - `Notebooks/`
-  - This directory contains four Colab notebooks, each corresponding to a specific experiment presented in the study. The results of these experiments are associated with the following:
+  - This directory contains three Colab notebooks, each corresponding to a specific experiment presented in the study. The results of these experiments are associated with the following:
     - **Table 3:** [Notebook link or name]
     - **Figure 4:** [Notebook link or name]
     - **Figure 7:** [Notebook link or name]
-    - **Table 5:** [Notebook link or name]
 - `README.md`: This file explains the repository structure and usage.
 
 ## Data Access

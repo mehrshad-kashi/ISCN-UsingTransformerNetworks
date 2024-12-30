@@ -6,22 +6,23 @@ This repository provides the code and instructions needed to reproduce the resul
 *"Comprehensive Analysis of Transformer Networks in Identifying Informative Sentences Containing Customer Needs"*  
 (currently under review at *Expert Systems With Applications*).
 
-The study focuses on using Transformer-based architectures to identify sentences containing customer needs (informative sentences) from Amazon product reviews. Experiments are conducted across five Amazon product domains at the sentence level:  
+The study uses Transformer-based architectures to identify sentences containing customer needs (informative sentences) from Amazon product reviews. Experiments are conducted across five Amazon product domains at the sentence level:  
 - **Oral-Care Products**  
 - **Electronics**  
 - **Sport & Outdoors**  
 - **Baby**  
 - **Pet Supplies**  
 
-The research evaluates the generalization capabilities of these models across domains, shedding light on their strengths and limitations. By employing various experimental setups, it addresses critical challenges in adopting Transformer-based models for customer needs analysis, including task complexity and the effective handling of diverse datasets.
+The research evaluates the generalization capabilities of these models across domains, shedding light on their strengths and limitations. By employing various experimental setups, it addresses technical challenges in adopting Transformer-based models for customer needs analysis systems, including task complexity and the effective handling of diverse samples and datasets.
 
 
 ## Repository Structure
-- `Notebooks/`
-  - This directory contains three Colab notebooks, each corresponding to a specific experiment presented in the study. The results of these experiments are associated with the following:
-    - **Table 3:** [Notebook link or name]
-    - **Figure 4:** [Notebook link or name]
-    - **Figure 7:** [Notebook link or name]
+-  [`Notebooks/`](https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks)  
+  - This directory contains four Colab notebooks, each corresponding to a specific experiment presented in the study. The results of these experiments are associated with the following:
+    - **Table 3:** (https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Table3.ipynb)   
+    - **Figure 4:** (https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Figure4.ipynb)  
+    - **Figure 7:** (https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Figure7.ipynb)  
+    - **Table 5:** (https://github.com/mehrshad-kashi/ISCN-UsingTransformerNetworks/tree/main/Notebooks/Table5.ipynb)   
 - `README.md`: This file explains the repository structure and usage.
 
 ## Data Access
@@ -53,7 +54,7 @@ The key findings of this study are summarized below:
 - **Table 3**: Performance comparison of models on the Oral-Care dataset.
 - **Table 4**: Assessment of model generalizability based on semantical appearance levels of samples during training.
 - **Figure 4**: Robustness analysis of models against unseen, informative samples in the Oral-Care dataset.
-- **Figure 7**: Sample efficiency of models across all datasets.
+- **Figure 7**: Sample efficiency of models on the Oral-Care dataset (in-domain data) and other datasets (out-of-domain data).
 - **Table 5**: In-domain and cross-domain classification results across all datasets.
 
 For a detailed discussion of the results, please refer to the [paper](#).
